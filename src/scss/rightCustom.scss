@@ -1,0 +1,80 @@
+.contentFormat {
+  background: transparent;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.postMain {
+  background: inherit;
+  color: inherit;
+  font-family: inherit;
+  border: 1rem gray;
+}
+
+.formFormat {
+  margin-left: 0.75rem;
+  border-color: rgba(47, 79, 79, 0.503) !important;
+}
+
+.rightMain {
+  max-height: 100vh;
+}
+
+.animateLeft {
+  animation-name: fadeInLeft;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+.animateLeftDelayed {
+  animation-name: fadeInLeft;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+
+.animateTop {
+  animation-name: fadeInTop;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+
+.animateRight {
+  animation-name: fadeInRight;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

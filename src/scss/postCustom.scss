@@ -1,0 +1,35 @@
+.postButton {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.activePost {
+  background-color: rgba(128, 128, 128, 0.114);
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+.author {
+  font-size: 24px;
+}
+
+.activeAuthor {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.date {
+  font-size: 14px;
+  color: gray;
+}
+
+.message {
+  color: white;
+}
+
+.details {
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}

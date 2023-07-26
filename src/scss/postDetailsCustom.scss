@@ -1,0 +1,37 @@
+.postContainer {
+    color: white;
+    text-decoration: none;
+}
+
+.postDetails {
+    color: white;
+    text-decoration: none;
+}
+
+.postDetails a {
+    color: white;
+    text-decoration: none;
+}
+
+.postDetails a:hover {
+    color: orangered;
+}
+
+.postMessage {
+    color: white;
+    background: none;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.postFooter {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background: transparent;
+}
+
+.postFooter button {
+    background: transparent;
+    text-decoration: none;
+    border: none;
+}

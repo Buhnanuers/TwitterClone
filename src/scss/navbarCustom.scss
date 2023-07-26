@@ -1,0 +1,46 @@
+.navbarFont {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: x-large;
+  color: white;
+  text-decoration: none;
+}
+
+.d-flex {
+  gap: 1rem;
+}
+
+.homeButton {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+
+.homeButton:hover {
+  text-decoration: none;
+  background: none;
+  background-color: none;
+}
+
+.profileButton {
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+
+.profileButton:hover {
+  text-decoration: none;
+  background: none;
+  background-color: none;
+}
+
+.authButton {
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.authbutton:hover {
+  text-decoration: none;
+  background: none;
+  background-color: none;
+}

@@ -1,0 +1,45 @@
+.modalCard {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  width: 20%;
+  z-index: 100;
+  overflow: hidden;
+  background: rgba(67, 67, 67, 0.726);
+  color: white;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.signUpButton {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  font-family: arial, sans-serif;
+  color: rgb(0, 163, 245);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input {
+  background-color: rgba(183, 183, 183, 0.677);
+  color:black;
+  border-color: black;
+}
+
+.animateTop {
+  animation-name: fadeInTop;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

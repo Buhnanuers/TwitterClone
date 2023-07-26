@@ -1,0 +1,23 @@
+.commentButton {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  text-decoration: none;
+}
+
+.commentButton:hover {
+  background: transparent;
+}
+
+.badgeFont {
+  color: gray;
+}
+
+.pl-2 {
+    padding-top: .5rem;
+    padding-left: 1.5rem;
+}

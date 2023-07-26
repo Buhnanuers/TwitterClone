@@ -1,0 +1,88 @@
+.recordFont {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.badgeFont {
+  color: gray;
+}
+
+.listButton {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.listButton:hover {
+  padding-left: 0.5rem;
+  background: rgba(128, 128, 128, 0.2);
+}
+
+a:active {
+  color: lightcoral;
+}
+
+a:hover {
+  padding-left: 0.5rem;
+  background: rgba(128, 128, 128, 0.2);
+}
+
+.postListSignedIn {
+  overflow: auto;
+  max-height: 85.6vh;
+  padding-bottom: 0;
+}
+
+.postListSignedOut {
+  overflow: auto;
+  max-height: 100vh;
+  padding-bottom: 0;
+}
+
+.postListActive {
+  border: 1rem darkorange;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-corner {
+  background: rbg(0, 0, 0);
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(43, 43, 43);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(80, 80, 80);
+}
+
+.animateFadeIn {
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}
+
+@for $i from 1 through 10 {
+  .animateFadeIn:nth-child(#{$i}n) {
+    animation-delay: #{$i * 0.2}s;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
